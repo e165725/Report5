@@ -3,10 +3,10 @@
  */
 public class Main {
     public static void main(String arg[]) {
-        String str = null;
+        String str = "3、14";
         try {
             System.out.println(str.length());
-            //Double.parseDouble(str);
+            Double.parseDouble(str);
         } catch (java.lang.NullPointerException er) {
             System.out.println("NullPointerExceptionが発生しました");
             er.printStackTrace();
